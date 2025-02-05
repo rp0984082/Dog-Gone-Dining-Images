@@ -19,14 +19,6 @@
 }
 
 /* Pages Titles */
-.Titlep {
-    color: white;
-    font-size: 2rem;
-    font-weight: lighter;
-    display: flex;
-    justify-content: center;
-}
-
 .Title {
     color: white;
     font-size: 8rem;
