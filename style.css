@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.bg-img {
+    /* The image used */
+    background-image: url("DogNav.jpg");
+
+    height: 40rem;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /* Needed to position the navbar */
+    position: relative;
+}
+
+.MenuTag {
+    color: white;
+    font-size: 8rem;
+    font-weight: lighter;
+    padding-top: 8%;
+    display: flex;
+    justify-content: center;
+}
+
+/* Position the navbar container inside the image */
+.Navbar {
+    width: 100%;
+}
+
+#Dogh1 {
+    position: relative;
+    top: 40px;
+    padding-left: 50px;
+    color: white;
+    font-weight: lighter;
+    font-size: 3.5rem;
+}
+
+/* The navbar */
+.topnav {
+    display: flex;
+    justify-content: right;
+    padding-right: 50px;
+    overflow: hidden;
+}
+
+/* Navbar links */
+.topnav a {
+    float: right;
+    color: white;
+    padding: 20px 20px;
+    text-decoration: none;
+    font-size: 1.8rem;
+    font-weight: lighter;
+}
+
+/* Intro Card */
+.IntroCard {
+    margin: 5%;
+    display: flex;
+    flex-direction: row;
+}
+
+/* Add some padding inside the card container */
+.IntroContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    padding: 100px;
+    text-align: center;
+}
+
+.IntroContainer p {
+    padding-top: 20px;
+}
+
+/* Menu Card */
+#Menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.MenuCard {
+    display: flex;
+    flex-direction: column;
+    padding: 1.5%;
+    width: 20%;
+    height: 20%;
+    margin: 2%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+
+/* Footer */
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 3%;
+    background-color: black;
+    color: white;
+    height: auto;
+}
+
+.footerSection,
+h4,
+p {
+    padding-bottom: 10%;
+}
